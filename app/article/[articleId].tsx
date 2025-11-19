@@ -156,7 +156,7 @@ export default function ArticleDetailScreen() {
   return (
     <View style={styles.container}>
       {/* In-screen header removed so the hero image can extend to the top edge */}
- 
+  
       {/* Fixed hero positioned at top so content scrolls over it */}
       <View style={[styles.fullBleedHeroContainer, { position: 'absolute', top: 0, left: 0, right: 0, height: HERO_HEIGHT }]}> 
         <Image source={{ uri: article.image }} style={styles.fullBleedHeroImage} resizeMode="cover" />
